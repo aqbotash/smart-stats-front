@@ -31,3 +31,177 @@ body {
     text-wrap: balance;
   }
 }
+/* styles/globals.css */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: transparent; 
+}
+
+.whiteRectangle {
+  padding: 40px;
+  width: 50%; 
+  height: 50vh; 
+  background-color: white;
+  border-radius: 8px; 
+  margin-top: 0px;
+}
+
+.imageContainer {
+  margin-bottom: 20px; 
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: black;
+  font-weight: regular;
+
+}
+h1 {
+  font-size: 16;
+}
+p {
+  font-size: 24px; 
+  font-weight: semibold; 
+}
+
+.whiteRectangle {
+  text-align: center;
+}
+
+
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.textfield {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  color:black;
+}
+
+
+
+.buttonContainer {
+  width: 100%; 
+  margin-right: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  width: 100%;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px; 
+}
+
+.button:hover {
+  background-color: #0056b3; 
+}
+
+.hstack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.forgetPasswordText {
+  color: #1570EF; 
+  margin-top: 10px; 
+  cursor: pointer; 
+  margin-left: 380px;
+}
+
+.passwordText {
+  margin-top: 10px;
+  margin-left: auto;
+}

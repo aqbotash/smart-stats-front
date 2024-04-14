@@ -1,0 +1,57 @@
+/* ExamCountdown.module.css */
+.container {
+    border-radius: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif; /* Or your preferred font */
+  }
+  
+  .header {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .daysLeft {
+    color: #ff0000; /* Red color for the number of days left */
+    font-size: 48px; /* Large font size for emphasis */
+    font-weight: bold;
+  }
+  
+  .number {
+    font-size: 64px; /* Even larger font size for the number */
+    color: #ff0000; /* Same red color */
+  }
+  
+  .divider {
+    height: 2px;
+    background-color: #ccc;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .goal {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .goalScore {
+    font-size: 48px;
+    color: #005C88;
+  }
+  
+  .footer {
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: inherit; 
+  }
+  

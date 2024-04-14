@@ -1,0 +1,32 @@
+
+.container {
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10px, 1fr));
+    gap: 4px; 
+  }
+  
+  .daySquare {
+    width: 10px; 
+    height: 10px; 
+    background-color: #e0e0e0;
+  }
+  
+  .present {
+    background-color: #007bff;
+  }
+  
+  .absent {
+  }
+
+  .title {
+    margin-bottom: 24px; /* Adding space to the bottom of the text */
+    font-weight: 500; /* Changing text weight */
+  }

@@ -1,8 +1,13 @@
-// UserProfile.js or UserProfile.tsx
 import React from 'react';
 import styles from './UserProfile.module.css';
 
-const UserProfile = ({ firstName, lastName, ranking }) => {
+interface UserProfileProps {
+  firstName: string;
+  lastName: string;
+  ranking: number;
+}
+
+const UserProfile: React.FC<UserProfileProps> = ({ firstName, lastName, ranking }) => {
   return (
     <div className={styles.profileCard}>
       <div className={styles.userDetails}>

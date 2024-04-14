@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -85,6 +87,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 h1 {
   font-size: 16;
+}
+h2{
+  font-size: 12;
 }
 p {
   font-size: 24px; 

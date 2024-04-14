@@ -9,7 +9,7 @@ export default function Home() {
       <div className="whiteRectangle">
         <p className="poppins-semibold mb-4">Login to your account.</p>
         <div className="buttonContainer">
-          <h1 className="poppins-regular mb-4">User name</h1> 
+          <h1 className="poppins-regular mb-4">User name</h1>
           <input type="text" placeholder="Username" className="textfield mb-4" style={{ width: '100%' }} /> 
           <div className="hstack">
             <h1 className="passwordText poppins-regular ">Password</h1>

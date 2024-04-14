@@ -42,6 +42,10 @@ const config: Config = {
             strong: colors.gray[900],
             inverted: colors.white,
           },
+          boxShadow: {
+            'custom-blue': '0 4px 6px -1px rgba(59, 130, 246, 0.5)', // blue shadow
+            'custom-red': '0 4px 6px -1px rgba(220, 38, 38, 0.5)'   // red shadow
+          }
         },
         // dark mode
         'dark-tremor': {

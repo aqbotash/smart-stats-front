@@ -10,11 +10,12 @@ const ExamCountdown = () => {
   const goalScore = "7.0";
 
   return (
-    <div className={styles.container}>
+    <div className="flex flex-col bg-white rounded-lg p-6 justify-center items-center">
       <div className={styles.header}>Exam Date: {new Date(examDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
       <div className={styles.daysLeft}>
-        <span className={styles.number}>{daysLeft}</span> days left
+        <span className={styles.number}>{daysLeft}</span>
       </div>
+      <div>days left</div>
       <div className={styles.divider}></div>
       <div className={styles.goal}>
         My Goal

@@ -30,7 +30,7 @@ const Calendar = () => {
             key={day} 
             className={
               specialDays.includes(day)
-                ? `${styles.day} ${styles.currentDay}` // Apply .currentDay if it's a special day
+                ? `${styles.day} ${styles.currentDay}` 
                 : styles.day
             }
           >

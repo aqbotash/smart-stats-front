@@ -4,6 +4,9 @@ import { LineChartUsageExample } from "@/components/LineChartUsageExample";
 import Calendar from "@/components/Calendar";
 import UserProfile from "@/components/UserProfile";
 import AttendanceTracker from "@/components/AttendanceTracker";
+import TestRes from "@/components/TestRes";
+import TestsColumn from "@/components/TestsColumn";
+import ExamCount from "@/components/ExamCount";
 
 const homeworkItems: string[] = [
     "Complete Algebra Exercise 3.1",
@@ -23,23 +26,18 @@ export default function Home() {
                 <div className="flex flex-row gap-4 p-6">
                     <div className="flex flex-col w-1/5 gap-4">
                         <div className=""><UserProfile firstName={data.firstName} lastName={data.lastName} ranking={data.ranking}/></div>
-                        <div className="">Goals</div>
+                        <div className=""><ExamCount/></div>
                         <div className="">Side bar</div>
                     </div>
                     <div className="flex flex-col w-3/5 gap-4">
                         <div className=""><HomeworkList homeworkItems={homeworkItems}/></div>
                         <div><LineChartUsageExample/></div>
                         <div className=""><AttendanceTracker/></div>
-                        <div className="">Test submission squares</div>
+                        <div className=""><TestRes/></div>
                     </div>
                     <div className="flex flex-col w-1/5 gap-4">
                         <div className=""><Calendar/></div>
-                        <div className="flex flex-col items-center space-y-4 bg-white">
-                            <div className="w-16 h-16 bg-white rounded-full shadow-sm"></div>
-                            <div className="w-16 h-16 bg-white rounded-full"></div>
-                            <div className="w-16 h-16 bg-white rounded-full"></div>
-                            <div className="w-16 h-16 bg-white rounded-full"></div>
-                        </div>
+                        <div className=""><TestsColumn/></div>
                     </div>
                 </div>
         </div>

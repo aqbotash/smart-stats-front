@@ -20,7 +20,7 @@ const Calendar = () => {
   const specialDays = [1, 3, 5, 6, 8, 9, 10, 12, 13, 17, 18, 19]; 
 
   return (
-    <div className={styles.calendarContainer}>
+    <div className="flex flex-col bg-white rounded-lg p-6">
       <div className={styles.daysGrid}>
         {leadingDays.map((_, index) => (
           <div key={`empty-${index}`} className={styles.day}></div>

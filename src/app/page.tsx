@@ -17,8 +17,7 @@ export default function Home() {
             
           </div>
           <input type="password" placeholder="Password" className="textfield" style={{ width: '100%' }} />
-          <button className="button">Login now</button>
-          
+          <button className="button">Login now</button>   
         </div>
       </div>
     </main>

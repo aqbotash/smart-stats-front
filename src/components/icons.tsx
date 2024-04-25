@@ -2,7 +2,7 @@ import { LucideProps } from "lucide-react";
 
 const Icons = {
   speaking: (props: LucideProps) => (
-    <svg width="90" height="91" viewBox="0 0 90 91" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+    <svg width="70" height="70" viewBox="0 0 90 91" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <rect y="0.901367" width="90" height="90" fill="url(#pattern0_20_4966)"/>
 <defs>
 <pattern id="pattern0_20_4966" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -13,7 +13,7 @@ const Icons = {
 </svg>
   ),
   listening: (props: LucideProps) => (
-    <svg width="125" height="122" viewBox="0 0 125 122" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+    <svg width="70" height="70" viewBox="0 0 125 122" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <rect y="0.901367" width="125" height="121" fill="url(#pattern0_20_4968)"/>
 <defs>
 <pattern id="pattern0_20_4968" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -25,7 +25,7 @@ const Icons = {
 
   ),
 reading: (props: LucideProps) => (
-    <svg width="98" height="99" viewBox="0 0 98 99" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+    <svg width="70" height="70" viewBox="0 0 98 99" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_d_20_4967)">
 <rect x="4" y="0.901367" width="90" height="90" fill="url(#pattern0_20_4967)" shape-rendering="crispEdges"/>
 </g>
@@ -50,7 +50,7 @@ reading: (props: LucideProps) => (
 ),
 
 writing: (props: LucideProps) => (
-    <svg width="90" height="91" viewBox="0 0 90 91" fill="none" xmlns="http://www.w3.org/2000/svg"xmlnsXlink="http://www.w3.org/1999/xlink">
+    <svg width="70" height="70" viewBox="0 0 90 91" fill="none" xmlns="http://www.w3.org/2000/svg"xmlnsXlink="http://www.w3.org/1999/xlink">
     <rect y="0.901367" width="90" height="90" fill="url(#pattern0_20_4969)"/>
     <defs>
     <pattern id="pattern0_20_4969" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -60,8 +60,56 @@ writing: (props: LucideProps) => (
     </defs>
     </svg>
      
-)
+),
+idea: (props: LucideProps) => (
+  <svg width="40" height="40" viewBox="0 0 58 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+<rect width="58" height="45" fill="url(#pattern0_20_4161)"/>
+<defs>
+<pattern id="pattern0_20_4161" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlinkHref="#image0_20_4161" transform="matrix(0.00862069 0 0 0.0111111 0.112069 0)"/>
+</pattern>
+<image id="image0_20_4161" width="90" height="90" xlinkHref="data:image/png;base64,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"/>
+</defs>
+</svg>
 
+),
+chatbot: (props: LucideProps) => (
+  <svg width="40" height="40" viewBox="0 0 45 56" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+<rect width="45" height="56" fill="url(#pattern0_20_4157)"/>
+<defs>
+<pattern id="pattern0_20_4157" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlinkHref="#image0_20_4157" transform="matrix(0.0111111 0 0 0.00892857 0 0.0982143)"/>
+</pattern>
+<image id="image0_20_4157" width="90" height="90" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEaklEQVR4nO2dQYscVRDHn4LRoHhVNAmCntVTVPDkyZMYtms3oLAXFUETj3rLJ1A30UNE8APs3WSmapY5xKwJeNCDEvQgqLDbVT2rrIIRIiOvJ2o0M7Pds/263uutP9Stt7rmNzXVr/vVdjmXgFaH398DyG8B8tWM5DdvQHwFiE8/f+Hbu7Xj64RODIsjgPIVkIynWUbypT9GO86ktVpm8mzIt8K2zN6HwJeLPSD/Czs/1dxXfMAEyFerg+bPteNNVoDya1XQ/ljteJMVIP9cGTTxSDveZAXIm9VByyXteJMVoLxeuUYjv6Idb7J67YvxXYByuULZuALr40Pa8SatkygPTe4CZ10EeROG+YPacXZCsD4+NBO0ZXLDsGk66IZPYwID3Y7AQBvoTgksow20qoB2jvlHlxlJD5CvTXZFKt9Ot2JlTJPYeoDFmyu90VGXimBQPAwoHwHxDW2QUBs8/wkk6ysXtx5xMWt5IC/WerRJkRryLqC84GLdDbmZEfqgqKns5tMutkzuEmS4FXYsmX1zlzr9ckEzDHnXP9iKYX37iToMCm4fK0PeOZbi6gJqG99Q7R3xFwt9CNKO9eUNPdAoF9UBUDuWkXyqB5rkO20A0JYhX9MD3eXVBkXUN6L+4aldM9BkoNWzEA5yRmcovwPJGgyK4y/3t+71ttQvnspQzgLJ9f0CCeU/LdDIPy4Nth+f5XO5lz/hj1kYdED/jQM8c2Z8pxuP79jruEUybWkOhP/AWCDzQvtvipuDzR8OZ8QfAvEvpaGc8133M4+vnxVrewbxt2+Uc7H5b4qbB7c2JUvem3N8PRCD4nhVEMtYPB2b/6a4uQxle8oJ8jknqAdimN9XFYQ/Njb/TXGrvaUfEsRLF4r7Y/PfFLfwoAedLR1xgc5QzlYFAcQfxOY/nYwmue6XVntC6OdPAvEfsflPCfTY3yzMg1FCQP5pId+B/acFmiaZ59eaZZ30V/9yBTB6ZvJzXiiTW/GfIuhximagyUCrZyFYRos6OCsdpA/VajQZaPWMA8toUYdkpYP0AVqNprjMbljIQKtnIUSZ0Shbt/0BylbTzzqy//VduMAK3ddRHzTJ+1NAv1v3BPvpuwitEH0dtUH7LfLyW/cvjSqt2XaDrGLfRWg13ddRG/Q/qtIEErivI7Qa7etYGHTVYANunoaW6uZscNDD6u0AodVkX0d0oF1kMtAtyUC3JAPdkgx0SzLQLamzoCFxM9BkoNWzECyjRR2clQ7Sh2o1mg4gaNNEBrolGeiW1EnQq7dNguOdcuAC8qsar6GfzCCYAhp513V1EhwoDFYAknemxZIRf+M6PgnuMz9WpJVMRnl75v/EIJ93XZ8EBzFYX55zXZ8EB+rGGy5VQTJvJOMR9PLHXKqCFEAjF0D5sy5lQfSlgzdWNvJHXeqC2N6D6n9hyF/71UWyF75p8sN7/RDfChAutbG867RODIsjc2GjXD452H5AO84OZXZ+yg/znVwgeeRvUvzgyJgnwf0FWC6HalPacE8AAAAASUVORK5CYII="/>
+</defs>
+</svg>
+
+),
+schedule: (props: LucideProps) =>(
+  <svg width="40" height="40" viewBox="0 0 54 42" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+<rect width="54" height="42" fill="url(#pattern0_20_4163)"/>
+<defs>
+<pattern id="pattern0_20_4163" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlinkHref="#image0_20_4163" transform="matrix(0.00864198 0 0 0.0111111 0.111111 0)"/>
+</pattern>
+<image id="image0_20_4163" width="90" height="90" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFQklEQVR4nO2cz4scRRTHG41Rzxo1UYjgLQHBU4wKuXoRnJ2uzXry5i0x0ZgIghtMyF5UBPVPSKKLwYAw67yaYWIOakRQ0ZMXIeLO9nu9wRA3usm6ra9nZU1mqqd7pqerf7wvPFhm60e/zxSvql7VtOOIRCKRSCQSiUQikUgkEomcFzu/3KMAX1aAl1xNfyhNQRnNDX3Dr5XGg882fr4706++1vEfUUA/2Iagsof+Pfue4UiuHmT1P9iZjOwwXOTAYWUVtncgC9CXbDuqrIPGrzIATddsO6psG9C1yYM2dO6UVMqWvwKaBPQkJCM6IwnojCSgM5KAzkgCOiMJ6IwkoDOSgM5IArqqoKtmjoAmAa1yMBJlRGv78CR0aPtgJUZrAW191CkZ0WQdlIQObR9iyWI0rrotOjoDtINNAR3jz4pSvjiggY71tR06V4zyTlFA1xZwe1/bHe+hopR3igJ6BmhHX9st/+GilHcKHTo0vV6U8k5hQGtcZeeSTFZ5Kl8g0FRoE9BaQAe2R6GMaG0fnIQObR+qxGhtETbQ2an2lZ0WVh35ykWoDMwF+lNpOr6vE2zJDnTOchEqW7swaAs/EdCDtrDhyLNUXmVvi/X28m4BrQfBwTUF2HEBD9Wb/p5as/vAS98Gd7Hx3/yZ0niYy4Rlh4eSJdXyd010ROctF6GigPR+Un3yeX31vrh+c1muozStRLYP1OVk1Ih4b3GuELkIZW7ndFQ8nZ0N7ojyn/t2NZ0ZAvvi2BNkDmJhMJrhmgv0qtGvLy/f62r8QGn8fcPe58+M5YGORIYToBMVBI1rqunXhvj13u31XKB3o+rUwZ8yw8bV/W3vsUqBdiNG8n8KJ7L+ut7Qei06auxX08cVAo2nx/ErVl2gjwbWB1wfeclnHxzFN6Drcd+vMQ7ojfW8YTWCb5cetAv01rh+xa4PeMrQhsfr8vLmOgBvJlknjw26sbjNNDFON72ny5vrAOyk4VeSNlxNX4w6GRc21+ECHkrDr2Rt4CsG0J8kaSfygfJ276Le9Pek4VeSNupt7ylDO98laadYuY7G4rY0/EryoqqZ1tKDA0e0xstJnqVYuY75YGsqfgE14sLmcoZ2VlIEnTObTwl0b4f3Ob+GbgzQf5UXdCNh6ABqRLYXY2QbQwcQlRb0NPhPJvErHI1DYeP5qDSqcTIE/KnEr2PDw0l9iwN7uknPmerzetnwLOfK/ILBC4mdiwMb8A0zG7poqPNmctAaD+YAYjDUAG++0Pnt/tRhG/LaUVtwpb1nRnoIfhGqdZA6lp0cBfQmbDx/65dHn6n54M6BoDXOGb5wf6SkEotTjwWBvTJoRxlXPPFxTOZwwSPZCJl3qEDXDaA/dMZRb2R7B/iFqHmeIF1NZ5wJi09SDJDX662lx50ySQGdNQIHOjLBfo0ZRBfwU6dsmmpf2blxF26A07jGB6lp9zmtvbqr8W9Dn6upXabJm5Sm4+YwEq4IXkurLz6EMEMO+5tzyqp9nWALr58j4zYfpI5xk4jrGmPyZsj4JmmupXCqLeB2vnA4bDUSnvElyIdsrJPnjKuLzS+yu3+h+6hTBdXby7sN9zT6wgkfP/W2zst7w6TQfLCVrZcgWt7L/+sdUcW45Kjxal3jE06VpFr+rvDCYVZLSaBu5SDftpEYnH9I0TgmVyZcRE6QQCcm8TMMF/BGGLfLPvElEV84VJrmebc2fpjA9TAPUtZ1cloTpQJ6J95k2QfY56u9pdtWOxMUZ9T4BlFvxYHnwiQZ4K+95RsfBIdQfwz/BzjLqc6Rs3D/dvgP8d2tDINaepIAAAAASUVORK5CYII="/>
+</defs>
+</svg>
+
+),
+
+circleChart: (props: LucideProps) => (
+  <svg width="40" height="40" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+<rect width="45" height="50" fill="url(#pattern0_20_4156)"/>
+<defs>
+<pattern id="pattern0_20_4156" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlinkHref="#image0_20_4156" transform="matrix(0.0111111 0 0 0.01 0 0.05)"/>
+</pattern>
+<image id="image0_20_4156" width="90" height="90" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFcklEQVR4nO2dyW8cRRTGKwmEHYGEBBwIIA4IRBAcQIhFEScCgiCYej0JRAQJxUDEDYHFyZxYwvJvgEbCYrXpqnbmgiAgEJAgDjkAAcZ2v9d2wgkHHDWq7nG8Rbhnprae7k+qm5fu33zzdS2vqhmrVatWrWoLJB4GSS0u8S0uk6cgSm4eG0s3u76uoRNIStc2LvEvkDgOAvc/NolXu77GoQUNqxougqBJHuFuaKVbXV/vEIOmZacLmgVJrz7aPnGZ6+seatCw7PI5EDRaO9w46DNZ/nMQxvewyihNNzVFchOE8dMg8XUQ9L7qTZgG3YV9GgS9s6/96/lsGLWn3bkCInwGJH7EJc6fDYIN0Cvy+7vm5Mx1bBi0o52eE8i4wQXKrDewwc3bBN11d2fXF3QJK6se/rhzIY/oZRD4Ry83btnRf4OMd7IyauTb9FwQyQsgabqfmy/yPyoPuSHxdpV7g4CwAxpPBSE9wsqmnRPHzuOC3i2Swa5Bq7hoRPggK5uan89dwyV+pSs3WQFVzslBRPeDwEQXZDAIurROBkG78qe2PshgDHRJnQwy2acjj8EC6FI7GQT+awIyaAdd4kw2ERdgAHSvToZ2fDHzQSDnt3FBZBIyaAPdm5MDET+ghuIQzlzP3PeT8RvTkEEL6D4gL31LBX6t7pW5Uj4YMQ8ZBgTda1yonwVJC2s+qLeZC0GU3GmqhwFaQQ/g5JUflsTTjan4bmZTatmHSzxqCzL0CVqPk1fBPqomx5gtdWfhUr9BoxYnr4dNB5gNwZe/XwAC//QbNBqB3G2xlQWBbNLeMmToDfSCzrg4u6uTV5jp5adeV0bsgkaTTl7Zpo1mtVrjcwEZCoI27eTVDZvMlPKFVH9B24OcDWLazFhJgMFJI7AEeoC4WNevNlI0mddduIEMmkDrgrzsanqO6ZYqbikz6IaOuFgPeoJpVZpuyooBSwo60O3klbXXrXSLNs5ZLZxDyDAAaFOQl1ojmr1VG+i84LB8oBsm4mJtE7hfG2gu8Y2ygQ4MO3mpqf0y2kDnpbPlAR1Ygpw3HNe926kUoBs24mKVo+kHVjUFVp18xtHHWZUUOIGcgZ5jVVHgDHIG+hSrioIadBVgY3WiY2gehj5076DgMlWpu3cg6D0PIKddB224XGV5wPKBRtD4mnvA5CdsgQeHalIJfI0RnZNKMEU3egA29dHZQTh3i+aJf0L3YMkv2AJPaD/hBgR+6B4qeRUjXNJnWiH7sDgLfjp7RDvoJz49ebm6GfdAyQvY2ZET7fgqZkIgMXQPkwaOkUDgQ4PGCBd4yAjkDHQUcw9Apj44mwsEc6Bb6RaQ9EvVYXOJHeMF6VzQi+4hUtG2oGJCe4wIGmWmpfbd9XvmBjhyttpsqtHZ03vDmYuMg85gSxpxD5DcwDZRb/e/WS3wJ/cAyXaMHLG6WSi/qOQum9vfwLmzcTGQdAdzIR8qmMCSs7VWJPUqtW0XJH0//LDxsPMjNR+fmr9WbQnzAF5qJEYkdrw5bLAR4X3+z4NQX8725hiJJaldSuV7OFIh2N5Jjf9dbigCgzHinUDgHpvL/VBlZ4OM77VxKg3obmqPu2+ZvJGaU/ENqrjEOTxZtKkiofltrIzK+tkCD2arEf4CXlSDEef9ZB0CgTs8nRs54mxYbfJkBC7pgCfZraZ5n7c+QWRTT04kl4Kkl1wcrpIdgSFo1Np8sg+CVroVQtpb9Oj5gTJY4CEQGKhvFauydkezV2bnNAn6RFX/aIB7UhW38IieVX/b9f15qbGxdDOE8W2qeBAEvpm/54p+VIvC6o0WXOA/WVNvtxD4W96FxPGs56B+R85ur19EVqtWrVq1atWqVatWrVqsuP4DsUE2syHrNocAAAAASUVORK5CYII="/>
+</defs>
+</svg>
+
+)
 };
 
 export default Icons;

@@ -7,6 +7,7 @@ import AttendanceTracker from "@/components/AttendanceTracker";
 import TestRes from "@/components/TestRes";
 import TestsColumn from "@/components/TestsColumn";
 import ExamCount from "@/components/ExamCount";
+import SideBar from "@/components/SideBar";
 
 const homeworkItems: string[] = [
     "Complete Algebra Exercise 3.1",
@@ -27,7 +28,7 @@ export default function Home() {
                     <div className="flex flex-col w-1/5 gap-4">
                         <div className=""><UserProfile firstName={data.firstName} lastName={data.lastName} ranking={data.ranking}/></div>
                         <div className=""><ExamCount/></div>
-                        <div className="">Side bar</div>
+                        <div className=""><SideBar/></div>
                     </div>
                     <div className="flex flex-col w-3/5 gap-4">
                         <div className=""><HomeworkList homeworkItems={homeworkItems}/></div>

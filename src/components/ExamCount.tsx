@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './ExamCountdown.module.css';
 
 const ExamCountdown = () => {
   const examDate = new Date('June 14, 2024 00:00:00').getTime(); // Convert to timestamp
@@ -11,18 +10,18 @@ const ExamCountdown = () => {
 
   return (
     <div className="flex flex-col bg-white rounded-lg p-6 justify-center items-center">
-      <div className={styles.header}>Exam Date: {new Date(examDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
-      <div className={styles.daysLeft}>
-        <span className={styles.number}>{daysLeft}</span>
+      <div className="mb-8 text-gray-900 font-bold text-sm">Exam Date: {new Date(examDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+      <div className="text-xxl font-bold text-red-600">
+        {daysLeft}
       </div>
-      <div>days left</div>
-      <div className={styles.divider}></div>
-      <div className={styles.goal}>
+      <div className="text-sm font-bold">days left</div>
+      <div className="h-1 bg-gray-300 w-full my-5"></div>
+      <div className="mb-6 items-center">
         My Goal
-        <div className={styles.goalScore}>{goalScore}+</div>
+        <div className="text-blue-600 text-xxl">{goalScore}+</div>
       </div>
-      <div className={styles.divider}></div> 
-      <div className={styles.footer}>
+      <div className="h-1 bg-gray-300 w-full my-5"></div> 
+      <div className="no-underline text-inherit">
         <a href="#setting-goals">Setting Examination Goals</a>
       </div>
     </div>

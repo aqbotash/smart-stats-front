@@ -9,19 +9,17 @@ const ExamCountdown = () => {
   const goalScore = "7.0";
 
   return (
-    <div className="flex flex-col bg-white rounded-lg p-6 justify-center items-center">
-      <div className="mb-8 text-gray-900 font-bold text-sm">Exam Date: {new Date(examDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
-      <div className="text-xxl font-bold text-red-600">
-        {daysLeft}
-      </div>
+    <div className="flex flex-col bg-white rounded-lg p-6 justify-center items-center gap-2">
+      <div className="mb-4 text-gray-900 font-bold text-sm">Exam Date: {new Date(examDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+      <div className="text-8xl font-bold text-red-600">{daysLeft}</div>
       <div className="text-sm font-bold">days left</div>
-      <div className="h-1 bg-gray-300 w-full my-5"></div>
-      <div className="mb-6 items-center">
-        My Goal
-        <div className="text-blue-600 text-xxl">{goalScore}+</div>
+      <div className="h-px bg-gray-300 w-full my-5"></div>
+      <div className="flex flex-col mb-4 justify-center  items-center gap-2">
+        <div className="text-lg font-bold">My Goal</div>
+        <div className="text-5xl font-bold text-blue-600">{goalScore}+</div>
       </div>
-      <div className="h-1 bg-gray-300 w-full my-5"></div> 
-      <div className="no-underline text-inherit">
+      <div className="h-px bg-gray-300 w-full my-5"></div> 
+      <div className="text-sm no-underline text-blue-600">
         <a href="#setting-goals">Setting Examination Goals</a>
       </div>
     </div>

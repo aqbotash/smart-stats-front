@@ -12,6 +12,9 @@ const config: Config = {
     transparent: 'transparent',
     current: 'currentColor',
     extend: {
+      fontSize: {
+          '5xl': '3rem', // Example custom size
+        },
       colors: {
         // light mode
         tremor: {

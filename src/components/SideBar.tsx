@@ -2,25 +2,25 @@ import Icons from './icons';
 
 export default function SideBar() {
     return (
-      <div className = "flex flex-col rounded-lg bg-white px-6 gap-6 py-4">
-      <div className="flex flex-row items-center justify-start">
+      <div className = "flex flex-col rounded-lg bg-white p-6 gap-6">
+      <div className="flex flex-row items-center justify-start gap-4">
         <div className=""><Icons.circleChart/></div>
-        <div className="">Analysis</div>
+        <div className="text-xl font-bold">Analysis</div>
       </div>
       <div className="w-full h-px bg-black"></div>
-      <div className="flex flex-row items-center justify-start">
+      <div className="flex flex-row items-center justify-start gap-4">
         <div className=""><Icons.chatbot/></div>
-        <div className="">ChatBot</div>
+        <div className="text-xl font-bold">ChatBot</div>
       </div>
       <div className="w-full h-px bg-black"></div>
-      <div className="flex flex-row items-center justify-start">
+      <div className="flex flex-row items-center justify-start gap-4">
         <div className=""><Icons.schedule/></div>
-        <div className="">Schedule</div>
+        <div className="text-xl font-bold">Schedule</div>
       </div>
       <div className="w-full h-px bg-black"></div>
-      <div className="flex flex-row items-center justify-start">
+      <div className="flex flex-row items-center justify-start gap-4">
         <div className=""><Icons.idea/></div>
-        <div className="">Tips</div>
+        <div className="text-xl font-bold">Tips</div>
       </div>
   </div>
     );

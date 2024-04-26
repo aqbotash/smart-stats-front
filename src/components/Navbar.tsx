@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Navbar() {
     return (
-        <nav className="h-16 bg-gradient-to-r to-blue-400 via-transparent from-blue-600 text-white py-4">
+        <nav className="h-16 bg-gradient-to-r from-custom-darkblue via-custom-blue via-20% to-custom-blue to-32% text-white py-4">
             <div className="flex mx-auto px-4 justify-between items-center">
                 <div className="flex">
                     <a href="/" className="text-2xl font-bold">

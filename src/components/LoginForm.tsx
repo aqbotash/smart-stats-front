@@ -37,7 +37,7 @@ export const LoginForm = () => {
   return (
         <div className="flex flex-col gap-8">
             <div className="text-8xl font-bold text-blue-500">SmartStats</div>
-            <div className="flex flex-col bg-white rounded-lg p-6 gap-4">
+            <div className="flex flex-col bg-custom-lightblue rounded-lg p-6 gap-4">
                 <div className="flex items-center justify-center text-lg font-semibold">Login</div>
                 <form onSubmit={handleLogin} className="space-y-8">
                     <div>

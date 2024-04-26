@@ -9,7 +9,7 @@ interface Props {
 
 const UserProfile: React.FC<Props> = ({ firstName, lastName, ranking }) => {
   return (
-    <div className="flex flex-col rounded-lg p-6 gap-4 bg-white">
+    <div className="flex flex-col rounded-lg p-6 gap-4 bg-custom-lightblue">
       <div className="flex flex-row">
         <div className="w-32 h-32 rounded-full bg-gray-300 mr-5"></div>
         <div className="flex flex-col gap-1.5 justify-center items-left">

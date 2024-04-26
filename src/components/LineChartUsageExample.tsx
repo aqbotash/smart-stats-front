@@ -62,7 +62,7 @@ export function LineChartUsageExample() {
 
   return (
     <>
-    <div className="mx-auto bg-white shadow-lg rounded-lg p-6">
+    <div className="mx-auto bg-custom-lightblue shadow-lg rounded-lg p-6">
       <h3 className="text-lg font-medium text-tremor-content-strong dark:text-dark-tremor-content-strong">Mock test results</h3>
         <LineChart
           className="mt-4 h-72"

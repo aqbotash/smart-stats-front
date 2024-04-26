@@ -9,7 +9,7 @@ const ExamCountdown = () => {
   const goalScore = "7.0";
 
   return (
-    <div className="flex flex-col bg-white rounded-lg p-6 justify-center items-center gap-2">
+    <div className="flex flex-col bg-custom-lightblue rounded-lg p-6 justify-center items-center gap-2">
       <div className="mb-4 text-gray-900 font-bold text-sm">Exam Date: {new Date(examDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
       <div className="text-8xl font-bold text-red-600">{daysLeft}</div>
       <div className="text-sm font-bold">days left</div>

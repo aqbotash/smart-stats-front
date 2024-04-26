@@ -9,7 +9,7 @@ const TestRes = () => {
   ));
 
   return (
-    <div className="flex flex-col bg-gray-100 p-4 rounded-lg shadow-md">
+    <div className="flex flex-col bg-custom-lightblue p-4 rounded-lg shadow-md">
       <h2 className="text-lg font-semibold mb-4">Attented tests in the past 3 month</h2>
       <div className="flex mb-2">
         {squares}

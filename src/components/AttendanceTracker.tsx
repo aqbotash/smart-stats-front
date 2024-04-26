@@ -42,7 +42,7 @@ const AttendanceTracker = () => {
   };
 
   return (
-    <div className="flex flex-col bg-gray-100 p-4 rounded-lg shadow-md">
+    <div className="flex flex-col bg-custom-lightblue p-4 rounded-lg shadow-md">
       <h2 className="text-lg font-semibold mb-4">Attendance in the past 3 months</h2>
       <div>
         {renderGrid()}

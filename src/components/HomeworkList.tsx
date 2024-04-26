@@ -6,7 +6,7 @@ interface HomeworkListProps {
 
 const HomeworkList: React.FC<HomeworkListProps> = ({ homeworkItems }) => {
   return (
-    <div className="mx-auto bg-white shadow-lg rounded-lg p-6">
+    <div className="mx-auto bg-custom-lightblue shadow-lg rounded-lg p-6">
       <div className="flex items-center justify-center"><h1 className="text-2xl font-bold mb-4">Homework</h1></div>
       <ul>
         {homeworkItems.map((item, index) => (

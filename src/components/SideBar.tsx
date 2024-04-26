@@ -2,7 +2,7 @@ import Icons from './icons';
 
 export default function SideBar() {
     return (
-      <div className = "flex flex-col rounded-lg bg-white p-6 gap-6">
+      <div className = "flex flex-col rounded-lg bg-custom-lightblue p-6 gap-6">
       <div className="flex flex-row items-center justify-start gap-4">
         <div className=""><Icons.circleChart/></div>
         <div className="text-xl font-bold">Analysis</div>

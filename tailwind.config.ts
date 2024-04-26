@@ -16,7 +16,10 @@ const config: Config = {
           '5xl': '3rem', // Example custom size
         },
       colors: {
-        // light mode
+        'custom-lightblue': '#EFFAFF',
+        'custom-lighterblue': '#C9EEFF', 
+        'custom-blue': '#55BBEB',
+        'custom-darkblue': '#306A85',
         tremor: {
           brand: {
             faint: colors.blue[50],
